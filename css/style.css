@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Garamond, serif;
+    font-size: 12px;
+    background-image: repeating-linear-gradient(
+        45deg, #D8D8D8, #D8D8D8 15px, #E0E0E0 15px, #E0E0E0 30px);
+}
+
+/*--------------------styling for text----------------------------*/
+
+p {
+    margin-bottom: 0.5em;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/*-------------------styling for links----------------------------*/
+
+a:link {
+    color: #0000FF;
+}
+
+a:visited {
+    color: #660099;
+}
+
+a:hover {
+    color: #000000;
+}
+
+/*-----------------------styling for images------------------------*/
+
+img.logo {
+    display: block;
+    width: 600px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/*------------------------styling by section------------------------*/
+
+#container {
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 850px;
+    background-color: white;
+    border-style: solid;
+    border-color: #A7A9AC;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: thick 7px #A7A9AC;
+    border-left: thick 7px #A7A9AC;
+}
+
+#header {
+    margin: auto;
+}
+
+#wrapper {
+    padding: 20px;
+}
+
+.form {
+    display: block;
+    margin: auto;
+}
+/*----------------nav--------------*/
+
+#nav {
+    background: #9e2d35;
+    border-top: 2px;
+    border-bottom: 2px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 150%;
+    font-weight: 600;
+    margin-bottom: 1em;
+    padding-top: 0.8em;
+    padding-bottom: 1em;
+}
+
+#nav span {
+    padding: 25px;
+}
+
+#nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+#nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    color: #A7A9AC;
+    text-decoration: none;
+}
+
+/*-------------footer---------------*/
+
+#footer {
+    background: #9e2d35;
+    text-align: right;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 120%;
+    font-weight: 600;
+    padding-top: 0.8em;
+    padding-bottom: 1em;
+}
+
+#footer span {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#footer a:link {
+    color: white;
+    text-decoration: none;
+}
+
+#footer a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #A7A9AC;
+    text-decoration: none;
+}
