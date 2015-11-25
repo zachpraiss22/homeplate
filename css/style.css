@@ -6,11 +6,18 @@
     padding: 0px;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
     font-family: Roboto, Garamond, serif;
     font-size: 15px;
     background-image: repeating-linear-gradient(
-        45deg, #D8D8D8, #D8D8D8 15px, #E0E0E0 15px, #E0E0E0 30px);
+        45deg, #D8D8D8, #D8D8D8 2px, #E0E0E0 2px, #E0E0E0 9px);
 }
 
 /*--------------------styling for text----------------------------*/
@@ -59,7 +66,8 @@ img.logo {
 /*------------------------styling by section------------------------*/
 
 #container {
-    height: 100%;
+    min-height: 100%;
+    position: relative;
     margin-right: auto;
     margin-left: auto;
     max-width: 850px;
@@ -121,6 +129,10 @@ img.logo {
 /*-------------footer---------------*/
 
 #footer {
+    height: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
     background: #9e2d35;
     text-align: right;
     font-family: Montserrat, Helvetica, Arial, sans-serif;
